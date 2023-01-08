@@ -1,0 +1,31 @@
+.promo__container{
+    width: 100%;
+    height: 700px;
+    background-color: #f9f9f9;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    .promo__text{
+        width: calc(50% - 10px);
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 40px;
+        .boton-contacto{
+            margin-top: 5px;
+        }
+    }
+    .promo__img{
+        width: calc(50% - 10px);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        img{
+            width: 500px;
+            height: 580px;
+        }
+        
+    }
+}
