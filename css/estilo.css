@@ -42,13 +42,13 @@ main {
   .pag-header .logo-header {
     display: flex;
     align-items: center;
-    flex-direction: row;
-    justify-content: space-between; }
+    justify-content: center; }
     .pag-header .logo-header img {
       margin-right: 20px;
       height: 50px;
       width: 50px; }
-    .pag-header .logo-header h1 a {
+    .pag-header .logo-header h1 {
+      margin: 0;
       color: #f9f9f9;
       font-size: 1.8rem;
       text-decoration: none;
