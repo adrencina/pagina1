@@ -8,9 +8,9 @@ function handleScroll() {
 
   // Si la posición del scroll es mayor que 100 pixels, cambiamos el color del fondo del menú
   if (scrollTop > 100) {
-    menu.style.backgroundColor = "#505050";
+    menu.style.backgroundColor = "rgba($color: #408db1, $alpha: 0.8)";
   } else {
-    menu.style.backgroundColor = 'transparent';
+    menu.style.backgroundColor = "rgba($color: #408db1, $alpha: 0.8)";
   }
 }
 

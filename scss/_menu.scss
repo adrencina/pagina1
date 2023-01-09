@@ -12,10 +12,10 @@ main{
 }
 .pag-header{
     /* position: fixed; */
-    background-color: transparent;
+    background-color: rgba($color: #408db1, $alpha: 0.8);
     width: calc(100%);
     margin: auto;
-    padding: 15px 20px;
+    padding: 5px 25px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -26,8 +26,8 @@ main{
         justify-content: space-between;
         img{
             margin-right: 20px;
-            height: 55px;
-            width: 55px;
+            height: 50px;
+            width: 50px;
         }
         h1 a{
             color: #f9f9f9;
@@ -43,7 +43,8 @@ main{
         font-weight: 400;
         a{
             color: #f9f9f9;
-            padding-right: 15px;
+            padding: 5px;
+            margin-right: 10px;
             font-size: 1.1rem;
             text-decoration: none;
             text-transform: uppercase;
