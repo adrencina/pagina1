@@ -41,18 +41,23 @@ main {
   justify-content: space-between; }
   .pag-header .logo-header {
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center; }
-    .pag-header .logo-header img {
+    .pag-header .logo-header a img {
+      display: flex;
+      align-items: center;
+      justify-content: center;
       margin-right: 20px;
-      height: 50px;
       width: 50px; }
     .pag-header .logo-header h1 a {
       margin: 0;
       color: #f9f9f9;
-      font-size: 1.8rem;
+      font-size: 2rem;
       text-decoration: none;
       text-transform: uppercase; }
+  .pag-header h1 {
+    margin: 0; }
   .pag-header .nav {
     display: flex;
     align-items: center;
